@@ -5,5 +5,4 @@ public class Salida {
         System.out.printnl("El promedio de las notas es: "+ calificaciones)
     }
 
-//ola
 }
