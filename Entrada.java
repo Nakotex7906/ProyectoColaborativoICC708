@@ -3,20 +3,23 @@ import java.util.Scanner;
 
 public class Entrada {
 
-    public static void main(String[] args) {
+    public static ArrayList<Double> obtnerCalificaiones() {
         Scanner scanner = new Scanner(System.in);
         ArrayList<Double> calificaciones = new ArrayList<>();
 
-        System.out.println("Ingrese las calificaciones (0 para terminar)");
+        System.out.println("Ingrese las notas, 0 para terminar");
 
-        while (true) { 
-            double calificacion = scanner.nextDouble();
-            if(calificacion == 0) break;
-            calificaciones.add(calificacion);
+        while (true) {
+            double notasIngresadas = scanner.nextDouble();
+            if (notasIngresadas == 0) {
+                break;
+            }
+            calificaciones.add(notasIngresadas);
+            
         }
         scanner.close();
-
-        System.out.println("Las notas son: " + calificaciones);
+        return calificaciones;
 
     }
+
 }
