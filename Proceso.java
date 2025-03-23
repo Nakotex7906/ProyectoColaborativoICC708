@@ -11,5 +11,5 @@ public class Proceso {
             suma += nota;
         }
         return suma / calificaciones.size();
-    }
+    }
 }
