@@ -19,7 +19,5 @@ public class Entrada {
         }
         scanner.close();
         return calificaciones;
-
     }
-
 }
