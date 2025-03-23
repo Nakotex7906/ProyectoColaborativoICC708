@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class Entrada {
 
-    public static ArrayList<Double> obtnerCalificaiones() {
+    public static ArrayList<Double> obtenerCalificaciones() {
         Scanner scanner = new Scanner(System.in);
         ArrayList<Double> calificaciones = new ArrayList<>();
 
